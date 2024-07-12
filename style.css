@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.all-socail-logo {
+    display: flex;
+}
+
+.social-logo a {
+    padding: 10px;
+    background-color: #FFD563;
+    color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+
+}
+
+.col-2.quick-link ul li {
+    list-style: none;
+}
+
+.col-2.quick-link ul li a {
+    text-decoration: none;
+    
+}
+.contact-info {
+    display: flex;
+}
+.quick-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+.contact-icon a {
+    color: #FFD563;
+    margin-right: 10px;
+}
+.contact-address a {
+    color: white;
+}
+.link-menu{
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.background-pic{
+    
+    background-image: url(images/levitan-museum-volga-embankment-plyos-snow-light-evening-lanterns.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -210px;
+}
+.box-icon {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+.box-title {
+    justify-content: center;
+    display: flex;
+}
+.icon-parts:hover {
+    background-color: #FFD563 !important;
+    transition: all 0.5s ease !important;
+    color: black !important;
+    
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ padding: 5px;
+}
